@@ -1,0 +1,39 @@
+.wrapper-demi {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0.1em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.192);
+    text-align: center;
+    height: 48vh;
+    /* position: relative; */
+    margin-top: 0.2em;
+}
+
+.div-mat {
+    /* position: relative; */
+    background-color: rgba(155, 96, 96, 0.452);
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    font-size: 90%;
+}
+
+.h99 {
+    grid-row: 1
+}
+.h10 {
+    grid-row: 2
+}
+.h11 {
+    grid-row: 3
+}
+.h12 {
+    grid-row: 4
+}
+.h13 {
+    grid-row: 5
+}
+.h14 {
+    grid-row: 6
+}
